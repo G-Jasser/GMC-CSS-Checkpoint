@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>My Portfolio</title>
+    </head>
+
+    <body>
+
+    <!-- The header section with the navigation menu -->
+    <header>
+        <a name="top"></a>
+        
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+     <!-- The main content section with the different sections of the web page -->
+    <main>
+    <!-- The home section with a welcome message -->
+        <section id="home">
+            <h1>Welcome to My Portfolio</h1>
+            <img src="home.png" alt="Imagine a very nice home page image.">
+        </section>
+
+    <!-- The about section with a small introduction -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello there, my name is Jasser Gharb. I study Computer Science at <a href="http://www.fsg.rnu.tn">FSG</a>. Also, I am learning Full-Stack web development at <a href="https://gomycode.com">GOMYCODE</a>.</p>
+            <audio controls>
+                <source src="assets/test.mp3" type="audio/mpeg">
+            </audio>
+        </section>
+
+    <!-- The work section with a list of projects and a short youtube video -->
+        <section id="work">
+            <h2>My Work</h2>
+            <ul>
+                <li><a href="https://github.com/G-Jasser/learn_git">Project 1</a></li>
+            </ul>
+
+            <iframe width="560" height="315" 
+            src="https://www.youtube-nocookie.com/embed/ok-plXXHlWw" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            frameboarder="0"
+            allowfullscreen></iframe>
+        </section>
+
+     <!-- The resume section with a table to display information in an organized manner -->
+        <section id="resume">
+            <h2>My Resume</h2>
+            <table border="2">
+                <tr>
+                    <th>Degree</th>
+                    <th>Institution</th>
+                    <th>Year</th>
+                </tr>
+                <tr>
+                    <td>High School Diploma</td>
+                    <td>Amal 4 High School</td>
+                    <td>2021</td>
+                </tr>
+                <tr>
+                    <td>Bachelor in Computer Science</td>
+                    <td>Faculty of Science of Gabes</td>
+                    <td>2021-2024</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- The contact section with a form to send a message -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+                <!-- using a table again to keep things organized -->
+                <table>
+                    <tr>
+                        <td>
+                            <label for="name">Name:</label>
+                        </td>
+                        <td>
+                            <input type="text" id="name" name="name" required><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email">Email:</label>
+                        </td>
+                        <td>
+                            <input type="email" id="email" name="email" required><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="message">Message:</label>
+                        </td>
+                        <td>
+                            <textarea id="message" name="message" required></textarea><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button type="submit">Send</button>
+                        </td>
+                    </tr>
+                </table>
+
+            </form>
+        </section>
+    </main>
+
+<!-- The footer section with more contact information -->
+    <footer>
+        <ul>
+            <li><a href="https://www.facebook.com">Facebook</a></li>
+            <li><a href="www.instagram.com">Instagram</a></li>
+            <li>Phone number: +216 99 999 999</li>
+        </ul>
+        <a href="#top">Back to Top</a>
+    </footer>
+
+    </body>
+
+</html>
