@@ -1,0 +1,170 @@
+body {
+    background-color: #ffc65c;
+}
+
+h1,
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+header {
+    background-color: #ff9468;
+    text-align: center;
+    height: 5ex;
+    padding-top: 2.5ex;
+
+    border: #fd6981;
+    border-style: double;
+    border-radius: 20px;
+
+    font-family: Roboto, "New Times Roman", Arial;
+}
+
+.navbar {
+    display: inline;
+}
+
+.navbar a {
+    font-size: 120%;
+    margin-right: 2%;
+    margin-left: 2%;
+    padding: 0.5%;
+
+    background-color: #ce519a;
+    border: #fd6981;
+    border-style: double;
+    border-radius: 20px;
+
+}
+
+.navbar a:link,
+.navbar a:visited {
+    color: #4c156d;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #864ca7;
+    background-color: #fd6981;
+    border: #864ca7;
+    border-style: groove;
+}
+
+
+main {
+    display: block;
+    margin-top: 1%;
+    background-color: #fefedf;
+    border-radius: 20px;
+}
+
+main h2 {
+    color: #aa4622;
+}
+
+
+#home {
+    background-color: #f9f871;
+    border-radius: 20px;
+
+    padding-bottom: 1%;
+    height: 30em;
+}
+
+#home h1 {
+    text-align: center;
+    margin-top: 0.5%;
+}
+
+#home img {
+    height: 90%;
+    width: 100%;
+    padding-top: 0.5%;
+    border-radius: 10ex;
+    object-fit: cover;
+    border-color: blueviolet;
+}
+
+#home hr {
+    margin-top: -1em;
+}
+
+#about,
+#work,
+#resume,
+#contact {
+    padding-left: 2ex;
+    padding-bottom: 1ex;
+}
+
+#resume table {
+    border-collapse: collapse;
+}
+
+#resume th,
+#resume td {
+    border: 2px solid black;
+    padding: 1ex;
+}
+
+
+footer {
+    margin-top: 1%;
+    border-radius: 20px;
+    background-color: #e87951;
+    height: 15ex;
+    display: flex;
+    justify-content: space-between;
+
+    border: #b81993;
+    border-style: double;
+    border-radius: 20px;
+
+    font-family: Roboto, "New Times Roman", Arial;
+}
+
+.foot {
+    margin-top: 1ex;
+}
+
+.totop {
+    width: 20%;
+    margin-right: 4ex;
+    margin-top: 3ex;
+
+    text-align: center;
+}
+
+.totop a {
+    padding: 3%;
+    background-color: #ce519a;
+    border: #a04454;
+    border-style: double;
+    border-radius: 20px;
+}
+
+.totop a:link,
+.totop a:visited {
+    color: #4c156d;
+    text-decoration: none;
+}
+
+.totop a:hover {
+    color: #b81993;
+    background-color: #fd6981;
+    border: #b81993;
+    border-style: groove;
+}
+
+.links a,
+.links a:visited,
+.links a:link,
+.links li {
+    color: #4d4351;
+    text-decoration: none;
+}
